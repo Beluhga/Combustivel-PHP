@@ -1,0 +1,80 @@
+main {
+	padding: 10px;
+	display: flex;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+label {
+	font-weight: bold;
+}
+
+div {
+	padding-bottom: 4px;
+}
+
+.campoTexto {
+	width: 100%;
+	padding: 8px 8px;
+	margin: 5px 0;
+	box-sizing: border-box;
+	border-color: #e0ebdd;
+	border-radius: 4px;
+}
+
+h2 {
+	background-color: #e0ebdd;
+	color:#154f06;
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.botao {
+	background-color:#154f06
+    ;
+	color: #FFFEFA;
+	text-align: center;
+	border-radius: 4px;
+	padding: 10px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100px;
+	display: block;
+}
+
+.painel {
+	margin-right: 10px;
+	border-width: thin;
+	border-style: solid;
+	border-color: #D9EDF7;
+	flex-grow: 1;
+	border-radius: 8px;
+	max-width: 500px;
+}
+
+.conteudo-painel {
+	padding: 15px;
+}
+
+.sucesso {
+	padding: 10px;
+	border-collapse: collapse;
+	border-style: ;
+	border-color: #e0ebdd;
+	background-color: #e0ebdd;
+	color:#151f75;
+
+}
+
+.erro {
+	padding: 10px;
+	flex-grow: 1;
+	border-style: ;
+	border-color: #ba0b28;
+	background-color: #eb98a6;
+	color: #5c000f;
+	font-weight: bold;
+}
